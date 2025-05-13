@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 public class Damageable : MonoBehaviour
 {
     public UnityEvent<int, Vector2> damageableHit;
@@ -37,6 +38,7 @@ public class Damageable : MonoBehaviour
             if(_health <= 0)
             {
                 IsAlive = false;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
