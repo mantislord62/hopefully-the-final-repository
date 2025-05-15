@@ -58,6 +58,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Parry",
+                    "type": "Button",
+                    "id": "521761d2-37b2-4f98-a487-e54f94ee5c7e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -239,23 +248,23 @@
                 },
                 {
                     "name": "",
-                    "id": "04006b75-c3e9-4790-aa09-9b0109efc792",
-                    "path": "",
+                    "id": "bdfdebd8-8d9b-4411-9537-5e3364c7f1da",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Restart",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "bdfdebd8-8d9b-4411-9537-5e3364c7f1da",
-                    "path": "<Keyboard>/escape",
+                    "id": "72d14467-d9db-4b2b-be02-ddf9ca0b4616",
+                    "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "Restart",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Parry",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
