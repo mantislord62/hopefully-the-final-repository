@@ -38,7 +38,6 @@ public class Damageable : MonoBehaviour
             if(_health <= 0)
             {
                 IsAlive = false;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
